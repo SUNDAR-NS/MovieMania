@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f8f8f8;
+}
+
+.navbar {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-title {
+    cursor: pointer;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+.search-bar {
+    width: 120px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    margin-left: 700px;
+}
+
+.search-bar:focus {
+    width: 130px;
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    right: 340px;
+    transform: translateY(-50%);
+    color: black;
+}
+
+.home-button {
+    padding: 10px 20px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: transparent;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.home-button:hover {
+    color: black;
+    background-color: transparent;
+    transform: scale(1);
+}
+
+.vwelcome {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+/* .review-item {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    overflow: hidden;
+    position: relative;
+    width: 175px;
+    height:225px;
+    object-fit: cover;
+} */
+
+.widthh
+{
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    overflow: hidden;
+    position: relative;
+    width: 300px;
+    height:225px;
+    object-fit: cover;
+    width: 175px;
+    height:225px;
+    object-fit: cover;
+}
+
+.review-item:hover {
+    transform: translateY(-5px) scale(1.05);
+}
+
+.vreview-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+    transition: transform 0.3s ease;
+}
+
+.add-to-watchlist-button {
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+
+.watchlist-button {
+    padding: 10px 20px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.watchlist-button:hover {
+    background-color: transparent;
+    color: black;
+    transform: scale(1);
+}
+
+
+.review-title {
+    margin: 10px 0 5px;
+    font-size: 5px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    transition: color 0.3s ease;
+}
+
+.review-item:hover .review-title {
+    color: #333;
+}
+
+.review-detail {
+    margin: 5px 0;
+    color: #666;
+    text-align: center;
+}
+
+.review-text {
+    margin: 10px;
+    color: #333;
+    text-align: justify;
+}

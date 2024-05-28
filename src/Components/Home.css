@@ -1,0 +1,76 @@
+.home-container {
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #1d4350, #a43931);
+  padding: 10px 20px;
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.title-project {
+  margin: 0;
+  font-size: 28px;
+}
+
+.navbar-buttons {
+  display: flex;
+}
+
+.button-link {
+  text-decoration: none;
+}
+
+.logreg {
+    margin-left: 20px; 
+    padding: 10px 20px; 
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px; 
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+
+.logreg:hover {
+  background-color: transparent;
+  color: black;
+}
+
+.explore-container {
+  margin-top: 30px;
+  margin-left: 600px;
+  margin-bottom: 20px;
+}
+
+.explore-link {
+  text-decoration: none;
+}
+
+.explore {
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  animation: pulse 2s infinite alternate;
+}
+
+.explore:hover {
+  background-color: #333;
+  animation: none;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}

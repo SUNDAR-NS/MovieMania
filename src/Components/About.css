@@ -1,0 +1,95 @@
+/* About.css */
+
+/* Main container styles */
+.about-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  /* Header styles */
+  .about-page .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333; /* Dark gray color */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .about-page .navbar-title {
+    font-size: 2em;
+    color: #fff; /* White color */
+    text-transform: uppercase;
+  }
+  
+  .about-page .navbar button {
+    background-color: #555; /* Medium gray color */
+    color: #fff; /* White color */
+    font-size: 1em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .about-page .navbar button:hover {
+    background-color: #777; /* Light gray color */
+  }
+  
+  /* Main content styles */
+  .about-page h1, 
+  .about-page h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #000; /* Black color */
+  }
+  
+  .about-page p {
+    line-height: 1.5;
+  }
+  
+  .about-page ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .about-page ul li {
+    margin-bottom: 10px;
+  }
+  
+  .about-page a {
+    color: #007bff; /* Blue color */
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .about-page a:hover {
+    color: #0056b3; /* Dark blue color */
+  }
+  
+  /* Footer styles */
+  .about-page footer {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .about-page footer p {
+    font-size: 0.8em;
+    color: #888; /* Gray color */
+  }
+  
+  .about-page footer a {
+    color: #007bff; /* Blue color */
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .about-page footer a:hover {
+    color: #0056b3; /* Dark blue color */
+  }
+  

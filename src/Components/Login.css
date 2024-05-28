@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar-title {
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.llogout-button {
+    padding: 10px 20px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.llogout-button:hover {
+    background-color: transparent;
+    color: black;
+}
+
+.login-div {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    background-size: 85%;
+    color: black;
+    position: absolute;
+    right: 100px;
+    top:80px;
+    height: calc(100vh - 80px);
+}
+
+.login {
+    background-color: black;
+    padding: 75px;
+    width: 250px;
+    height: 350px;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid red;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.title {
+    display: block;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.input-log, .loption {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 1rem;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.input-log:focus, .loption:focus {
+    outline: none;
+    border-color: black;
+}
+
+.lor {
+    color: white;
+    display: block;
+    font-size: 20px;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+
+.button {
+    background: black;
+    border: 1px solid white;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0) 1px 2px 4px;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    margin-top: 30px;
+    margin-left: 5px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+}
+
+.button:hover,
+.button:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: white;
+}
+
+.button:active {
+    opacity: .5;
+}
+
+.register-b {
+    margin-top: 10px;
+    margin-left: 5px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+
+.button {
+    width: 65%;
+}
+
+.register-b {
+    width: 100%;
+}
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.enjoy
+{
+    width: 800px;
+    position: absolute;
+    top:125px;
+    left:20px;
+}

@@ -1,0 +1,83 @@
+
+.watchlist-container {
+  max-width: 1000px; 
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.watchlist-movies {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+  gap: 20px;
+}
+
+.watchlist-movie {
+  background-color: #fff; 
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  width: calc(50% + 75px); 
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); 
+}
+
+
+.watchlist-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0;
+}
+
+/* Movie info */
+.watchlist-info {
+  padding: 20px;
+}
+
+.watchlist-name {
+  font-size: 1.5rem;
+  color: #333; 
+  margin-bottom: 10px;
+}
+
+.watchlist-genre,
+.watchlist-cast {
+  font-size: 1rem;
+  color: #666; 
+  margin-bottom: 5px;
+}
+
+
+.watchlist-delete {
+  background-color: black; 
+  color: #fff; 
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: 'Arial', sans-serif; 
+}
+
+.watchlist-delete:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid black; 
+}
+
+
+.watchlist-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 0%, transparent 100%); /* Reduced opacity of gradient */
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 80%, 0 100%);
+}
+
+
+.watchlist-movie:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Lighter shadow on hover */
+}

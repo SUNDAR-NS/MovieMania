@@ -1,0 +1,16 @@
+.width{
+    width: 105px;
+    height: 225px;
+}
+
+.rrrimage {
+    width: 200%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+    transition: transform 0.3s ease;
+}
+.rrrname
+{
+    margin-left:50px;
+}

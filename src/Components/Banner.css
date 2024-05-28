@@ -1,0 +1,63 @@
+/* Banner.css */
+
+.picture {
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .banner {
+    position: absolute;
+    bottom: 20px;
+    left: 45%;
+    transform: translateX(-50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 24px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+  
+  .picture:hover .banner {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  /* Additional Animation */
+  
+  .banner {
+    transition-delay: 0.3s;
+  }
+  
+  .banner:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .banner::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 4px;
+    background-color: #ff4500;
+    border-radius: 2px;
+    animation: bannerBounce 1s infinite alternate;
+  }
+  
+  @keyframes bannerBounce {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(10px);
+    }
+  }
+  

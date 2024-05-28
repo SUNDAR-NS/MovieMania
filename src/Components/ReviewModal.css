@@ -1,0 +1,126 @@
+/* ReviewModal.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.modal-content {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    max-width: 900px;
+    width: 90%;
+    max-height: 80vh;
+    overflow-y: auto;
+    animation: modalFadeIn 0.5s ease forwards;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.review-rimage {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+.review-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+    animation: titleFadeIn 0.8s ease forwards;
+}
+
+.review-detail {
+    margin-bottom: 10px;
+    color: #666;
+    animation: detailFadeIn 0.8s ease forwards;
+}
+
+.review-text {
+    margin-top: 30px;
+    color: #444;
+    line-height: 1.8;
+    animation: textFadeIn 1s ease forwards;
+}
+
+button {
+    padding: 14px 28px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.4rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+@keyframes modalFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes titleFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes detailFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes textFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.star-icon {
+    width: 20px; /* Adjust the size of the star icon as needed */
+    height: auto;
+    margin-right: 5px; /* Adjust the spacing between stars */
+}
+.star-rating {
+    display: flex; /* Arrange stars horizontally */
+    align-items: center; /* Align stars vertically */
+    margin-bottom: 10px; /* Adjust spacing between the star rating and other elements */
+}
