@@ -30,7 +30,7 @@ This is the Home page for the movie project. Login and signup button for the Rev
 
 ![Screenshot (496)](https://github.com/SUNDAR-NS/MovieMania/assets/155610373/b0c8aca7-8db2-4bf8-93f1-da6c71f0e6ec)
 
-This is the Home page for the movie project. There is trending movies are shown below using the tmdb api. It updates the movie automatically according to the movie that released and trending. 
+This is the Home page for the movie project. There is trending movies are shown below using the tmdb api. It updates the movie automatically according to the movie that released and trending. You need to create your own api using the tmdb api website( Refer net to create your own API).
 
 ![Screenshot (497)](https://github.com/SUNDAR-NS/MovieMania/assets/155610373/322b4a4d-6de5-4948-a756-0e79118138c2)
 
