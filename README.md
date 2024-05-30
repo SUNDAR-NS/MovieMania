@@ -1,4 +1,4 @@
-About the MovieMania Project:
+About the MovieMania Project using MERN stack:
 
 Movie Mania is a website for people who love movies. It lets you do different things depending on who you are. If you're an Admin, you can add new movies, update their details, or even delete them. Reviewers can write reviews and give ratings for movies after signing up. And if you're just a viewer, you can browse through movies, see their details like name, language, genre, cast, and ratings that are sorted by rating, add them to your watchlist and also remove it from watchlist, and check out what movies are popular worldwide. The website uses ReactJS for its design and MongoDB to store movie information securely. It's a place where everyone can enjoy and explore the world of movies easily.
 
