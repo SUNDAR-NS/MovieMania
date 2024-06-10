@@ -40,30 +40,23 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
     git clone https://github.com/SUNDAR-NS/MovieMania.git
     ```
 
-2. **Install Frontend Dependencies**
+2. **Install Frontend and Backend Dependencies**
     ```bash
-    cd MovieMania/frontend
     npm install
     ```
 
-3. **Install Backend Dependencies**
-    ```bash
-    cd MovieMania/backend
-    npm install
-    ```
-
-4. **Run MongoDB**
+3. **Run MongoDB**
     Ensure MongoDB is running on your system.
 
 5. **Start the Backend Server**
     ```bash
-    cd MovieMania/backend
-    npm start
+    cd MovieMania
+    node server.js
     ```
 
 6. **Start the Frontend Server**
     ```bash
-    cd MovieMania/frontend
+    cd MovieMania
     npm start
     ```
 
@@ -130,4 +123,4 @@ This project is licensed under the MIT License.
 
 ## Contact
 
-For any issues or questions, please contact the project maintainer at [your-email@example.com].
+For any issues or questions, please contact the project maintainer at [sabarisundar2003@gmail.com].
